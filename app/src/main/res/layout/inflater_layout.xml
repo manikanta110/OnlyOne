@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/btn_bg"
+        android:padding="15dp"
+        android:text="Custom Dialog" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:layout_below="@id/btn_dialog"
+        android:background="@drawable/btn_bg_toast"
+        android:padding="15dp"
+        android:text="Custom Toast" />
+    <Button
+        android:id="@+id/btn_inflater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:layout_below="@id/btn_toast"
+        android:background="@drawable/btn_bg_inflater"
+        android:padding="15dp"
+        android:text="Custom inflater"
+        android:drawableEnd="@drawable/spinnerdown"
+        android:drawableRight="@drawable/spinnerdown" />
+
+
+</LinearLayout>

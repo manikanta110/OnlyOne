@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Only One</string>
+    <string-array name="Entries">
+        <item>Top Rated</item>
+        <item>UpComing</item>
+        <item>Popular</item>
+    </string-array>
+</resources>

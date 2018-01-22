@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear_network"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_nonetwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network UnAvailable "
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/text_tryagain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_thanks"
+            android:text="try Again"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/text_refresh"
+            android:layout_below="@id/text_feedback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/refresh"/>
+
+
+
+
+    </LinearLayout>

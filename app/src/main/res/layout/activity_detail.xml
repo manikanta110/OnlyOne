@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.onlyone.DetailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/de_title"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/de_title"
+            android:scaleType="fitCenter"
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/de_poster"
+            />
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/de_poster"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="18dp"
+                android:text="Release date:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/de_release_date"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/de_release"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/story"
+            android:textAlignment="center"
+            android:text="Story of the Movie:"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_below="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/de_content"
+            android:layout_below="@+id/story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

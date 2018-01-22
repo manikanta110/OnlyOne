@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/text_thanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you For "
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/colortoast"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/text_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_thanks"
+        android:text="Your FeedBack"
+       android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colortoast"
+        android:textSize="30sp"/>
+    <ImageView
+        android:layout_below="@id/text_feedback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_name"/>
+
+
+</RelativeLayout>

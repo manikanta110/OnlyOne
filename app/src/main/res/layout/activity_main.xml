@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.user.onlyone.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/btn_bg"
+        android:padding="15dp"
+        android:text="Custom Dialog" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:layout_below="@id/btn_dialog"
+        android:background="@drawable/btn_bg_toast"
+        android:padding="15dp"
+        android:text="Custom Toast" />
+    <Button
+        android:id="@+id/btn_inflater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:layout_below="@id/btn_toast"
+        android:background="@drawable/btn_bg_inflater"
+        android:padding="15dp"
+        android:text="Custom inflater"
+        android:drawableEnd="@drawable/spinnerdown"
+        android:drawableRight="@drawable/spinnerdown" />
+        <Button
+            android:id="@+id/btn_checkfilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:layout_below="@id/btn_inflater"
+            android:background="@drawable/btn_bg_inflater"
+            android:drawableRight="@drawable/forward1"
+            android:padding="15dp"
+            android:text="Check filter"
+             />
+
+    </RelativeLayout>
+
+
+</ScrollView>
